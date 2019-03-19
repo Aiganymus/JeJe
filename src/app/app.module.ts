@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SearchResultComponent } from './search-result/search-result.component';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SearchPageComponent } from './search-page/search-page.component';
     RegistrationComponent,
     LoginComponent,
     SearchResultComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    RestaurantPageComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
