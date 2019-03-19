@@ -1,18 +1,23 @@
-.card{
-    margin: auto;
-    width: 50%;
-    padding: 5px;
+.best-review {
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 100px;
+margin-bottom: 100px;
+/* max-width: 700px; */
 }
-.best-review h2{
+
+ .title {
+  margin: 1rem;
   text-align: center;
   font-size: 2rem;
   color:#cc0000;
-}
-.title {
-  margin: 1rem;
+  margin-bottom: 30px;
 }
 .stars{
   color:#cc0000;
+  font-size: 1.3rem;
 }
 .img-size{
   width: 13%;
@@ -21,6 +26,48 @@
 }
 
 .info-about-writer {
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+}
+
+.card {
+  width: 71.5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media only screen and (max-width:1369px){
+.card {
+  width: 83%;
+}
+
+
+}
+@media only screen and (max-width:800px){
+  .stars{
+    font-size: 1rem;
+  }
+  .title {
+   margin: 1rem;
+   text-align: center;
+   font-size: 1rem;
+   color:#cc0000;
+   margin-bottom: 30px;
+ }
+ .card {
+   font-size: 0.9rem;
+   width: 60%;
+
+ }
+}
+
+@media only screen and (max-width:440px){
+  .card {
+  width: 100vw;
+  box-shadow: 0 10px 20px white, 0 6px 6px white;
+}
+.best-review{
+  margin-top: 30px;
+}
+
 }
