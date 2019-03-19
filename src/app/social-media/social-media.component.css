@@ -1,0 +1,38 @@
+.btn-google {
+  background-color: #ce3e26;
+}
+
+.btn-facebook {
+  background-color: #354f88;
+}
+
+.btn-div {
+  margin: 5px;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  white-space: nowrap;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+@media all and (min-width:1024px) {
+  .btn-div {
+    min-width: 450px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-div a {
+    margin: 0px;
+    width: 49%;
+  }
+}
