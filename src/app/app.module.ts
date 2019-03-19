@@ -14,6 +14,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+import { SearchResultComponent } from './search-result/search-result.component';
+import { SearchPageComponent } from './search-page/search-page.component';
+import { HeaderOtherComponent } from './header-other/header-other.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     LoginComponent,
     FooterComponent,
     SocialMediaComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    SearchResultComponent,
+    SearchPageComponent,
+    HeaderOtherComponent
   ],
   imports: [
     BrowserModule,
