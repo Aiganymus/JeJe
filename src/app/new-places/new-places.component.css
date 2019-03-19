@@ -19,3 +19,29 @@
 .card-deck {
     margin:60px;
 }
+
+@media only screen and (max-width:835px){
+
+  .cards{
+  flex-direction: column;
+  align-items: center;
+  }
+  .top-place h2 {
+   font-size: 1.5rem;
+   color:#cc0000;
+   text-align: center;
+   margin: 30px;
+  }
+  .card-deck {
+      margin:0px;
+  }
+}
+@media only screen and (max-width:400px){
+
+  .title {
+    margin: 0;
+  }
+  .top-place h2 {
+   font-size: 1rem;
+  }
+}
