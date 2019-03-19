@@ -27,6 +27,7 @@ import { HeaderOtherComponent } from './header-other/header-other.component';
 import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { AddReviewComponent } from './add-review/add-review.component';
+import { StarsCountComponent } from './stars-count/stars-count.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { AddReviewComponent } from './add-review/add-review.component';
     RestaurantPageComponent,
     CarouselComponent,
     HeaderOtherComponent,
-    AddReviewComponent
+    AddReviewComponent,
+    StarsCountComponent
   ],
   imports: [
     BrowserModule,

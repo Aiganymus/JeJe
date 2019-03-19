@@ -1,3 +1,37 @@
 html {
   overflow-x: hidden;
 }
+
+h1 {
+  font-family: Montserrat-bold;
+}
+
+button {
+  border-radius: 8%;
+  background: indianred;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  color: white;
+}
+
+.like {
+  box-sizing: border-box;
+  border-radius: 8%;
+  cursor: pointer;
+  background: indianred;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.not-like {
+  border-radius: 8%;
+  padding: 10px;
+  cursor: pointer;
+  background: indianred;
+  color: white;
+  display: inline-block;
+  border: 1px solid white;
+}

@@ -9,11 +9,11 @@
       <div class="container restaurant-info">
         <div class="row">
           <div class="col-md-6">
-            <a routerLink="/main"><h3>{{ placeInfo.name }}</h3></a>
+            <a [routerLink]="['/food-place', placeInfo.id]">
+              <h3>{{ placeInfo.name }}</h3>
+            </a>
             <div class="rating">
-              <ng-container *ngFor='let in of counter(placeInfo.rating)'>
-                <i class="fas fa-star"></i>
-              </ng-container>
+              <app-stars-count [count]="placeInfo.rating"></app-stars-count>
             </div>
             <div class="category ">
               {{ placeInfo.category }}

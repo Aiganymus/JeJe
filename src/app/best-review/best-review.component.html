@@ -10,16 +10,14 @@
           </a>
           <div class="data-and-stars">
             <div class="stars">
-              <ng-container *ngFor='let in of counter(bestReview.rating)'>
-                <i class="fas fa-star"></i>
-              </ng-container>
+              <app-stars-count [count]="bestReview.rating"></app-stars-count>
             </div>
             <p class="card-text"> {{ bestReview.date }} </p>
           </div>
           <p class="card-text">Отзыв для <a href="#" class="card-link">{{ bestReview.placeName }}</a></p>
         </div>
       </div>
-      <p class="card-text">{{ bestReview.text }}<a href="#" class="card-link">продолжить
+      <p class="card-text">{{ bestReview.text }}<a href="#" class="card-link"> Продолжить
           чтение отзыва</a></p>
     </div>
   </div>

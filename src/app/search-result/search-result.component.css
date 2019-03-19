@@ -12,6 +12,7 @@
 
 .legend {
   color: black;
+  text-align: justify;
 }
 
 .small-container {
@@ -128,10 +129,6 @@ a {
   .small-container {
     width: 100%;
   }
-}
-
-.fa-star {
-  color: #d32323;
 }
 
 @media all and (max-width: 600px) {

@@ -5,7 +5,6 @@
   justify-content: center;
   margin-top: 100px;
   margin-bottom: 100px;
-  /* max-width: 700px; */
 }
 
 .title {
@@ -49,8 +48,6 @@
   .card {
     width: 83%;
   }
-
-
 }
 
 @media only screen and (max-width:800px) {
@@ -86,4 +83,7 @@
     font-size: 1rem;
   }
 
+  .img-size {
+    width: 30%;
+  }
 }

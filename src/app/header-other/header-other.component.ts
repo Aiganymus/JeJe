@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-other.component.css']
 })
 export class HeaderOtherComponent implements OnInit {
-
+  isNavbarCollapsed = true;
+  
   constructor() { }
 
   ngOnInit() {
