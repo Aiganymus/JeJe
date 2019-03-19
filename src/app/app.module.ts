@@ -11,10 +11,15 @@ import { ContainerComponent } from './container/container.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { CardComponent } from './card/card.component';
 import { TopPlacesComponent } from './top-places/top-places.component';
 import { NewPlacesComponent } from './new-places/new-places.component';
 import { BestReviewComponent } from './best-review/best-review.component';
+
+import { FooterComponent } from './footer/footer.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -24,10 +29,16 @@ import { BestReviewComponent } from './best-review/best-review.component';
     ContainerComponent,
     RegistrationComponent,
     LoginComponent,
+
     CardComponent,
     TopPlacesComponent,
     NewPlacesComponent,
-    BestReviewComponent
+    BestReviewComponent,
+
+    FooterComponent,
+    SocialMediaComponent,
+    SearchBarComponent
+
   ],
   imports: [
     BrowserModule,

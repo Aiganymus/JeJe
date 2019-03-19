@@ -7,33 +7,22 @@
   <a routerLink="/registration">Зарегистрироваться</a>
   <p>Войдя, вы соглашаетесь с правилами приватности JeJe</p>
   <div class="inner">
-    <div class="btn-div">
-      <a class="btn btn-block btn-social btn-google">
-        <div>
-          <i class="fab fa-google"></i> Войти через Google
-        </div>
-      </a>
-      <a class="btn btn-block btn-social btn-facebook">
-        <div>
-          <i class="fab fa-facebook-f"></i> Войти через Facebook
-        </div>
-      </a>
-    </div>
+    <app-social-media></app-social-media>
     <h1>ИЛИ</h1>
     <form [formGroup]="userForm" (ngSubmit)="onSubmit()" novalidate>
       <div class="form-group">
         <input type="email" class="form-control" placeholder="Email" formControlName="email" />
-        <small *ngIf="userForm.controls['email']?.invalid && formSubmitted" class="form-text error">
+        <small *ngIf="userForm.controls['email']?.invalid && formSubmitted" class="form-text text-muted">
           Пожалуйста, введите почту!
         </small>
       </div>
       <div class="form-group">
         <input type="password" class="form-control" placeholder="Password" formControlName="password" />
-        <small *ngIf="userForm.controls['password']?.invalid && formSubmitted" class="form-text error">
+        <small *ngIf="userForm.controls['password']?.invalid && formSubmitted" class="form-text text-muted">
           Пожалуйста, введите пароль!
         </small>
       </div>
-      <button type="button" class="btn login_btn">Войти</button>
+      <button type="submit" class="btn login_btn">Войти</button>
     </form>
   </div>
 </div>
