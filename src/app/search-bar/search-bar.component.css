@@ -1,0 +1,27 @@
+.home-search {
+  background-color: #a91c1c;
+}
+
+.home-search i {
+  color: white;
+}
+
+.search {
+  padding: 0px;
+}
+
+form .input-group {
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0px;
+}
+
+form input {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+form button {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
