@@ -11,6 +11,8 @@ import { ContainerComponent } from './container/container.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SocialMediaComponent } from './social-media/social-media.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MainPageComponent,
     ContainerComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    SocialMediaComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
