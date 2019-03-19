@@ -10,11 +10,9 @@
           </a>
           <div class="data-and-stars">
             <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
+              <ng-container *ngFor='let in of counter(bestReview.rating)'>
+                <i class="fas fa-star"></i>
+              </ng-container>
             </div>
             <p class="card-text"> {{ bestReview.date }} </p>
           </div>

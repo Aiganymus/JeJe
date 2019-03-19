@@ -4,4 +4,5 @@ export interface Review {
   text: string;
   placeName: string;
   authorName: string;
+  rating: number;
 }

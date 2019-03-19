@@ -1,0 +1,68 @@
+.review-text-area {
+  border-radius: 5px;
+  border: 2px solid #d9d9d9;
+  width: 50vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #cc0000;
+  font-weight: 500;
+  border-style: none;
+  margin-top: 3vh;
+  width: 10vw;
+}
+
+.write-review {
+  height: 100vh;
+  width: 100vw;
+  padding: 5vw;
+}
+
+.form-control {
+  width: 10vw;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+}
+
+.form-group label {
+  margin-right: 1em;
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 1024px) {
+  .btn-primary {
+    width: 35vw;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .form-control {
+    width: 30vw;
+  }
+
+  .review-text-area {
+    width: 80vw;
+  }
+
+  .place-name {
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+
+.place-name {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.review-guidelines {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

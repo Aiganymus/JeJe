@@ -26,6 +26,7 @@ import { SearchPageComponent } from './search-page/search-page.component';
 import { HeaderOtherComponent } from './header-other/header-other.component';
 import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { AddReviewComponent } from './add-review/add-review.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     SearchPageComponent,
     RestaurantPageComponent,
     CarouselComponent,
-    HeaderOtherComponent
+    HeaderOtherComponent,
+    AddReviewComponent
   ],
   imports: [
     BrowserModule,
