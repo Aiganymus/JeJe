@@ -116,9 +116,13 @@ button {
     justify-content: space-between;
   }
 
-  @media all and (min-width:1024px) {
+  @media all and (min-width:800px) {
     form {
       min-width: 474px;
+    }
+
+    .name .form-group {
+      width: 49%;
     }
   }
 
