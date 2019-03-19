@@ -1,0 +1,28 @@
+<div class="best-review">
+  <h2 class="title">Отзыв недели</h2>
+  <div class="card">
+    <div class="card-body">
+      <div class="info-about-writer">
+        <img src="assets/images/ramen.jpg" class="rounded float-left img-size" alt="image">
+        <div class="">
+          <a href="#" class="card-link">
+            <h5 class="card-title">{{ bestReview.authorName }}</h5>
+          </a>
+          <div class="data-and-stars">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="card-text"> {{ bestReview.date }} </p>
+          </div>
+          <p class="card-text">Отзыв для <a href="#" class="card-link">{{ bestReview.placeName }}</a></p>
+        </div>
+      </div>
+      <p class="card-text">{{ bestReview.text }}<a href="#" class="card-link">продолжить
+          чтение отзыва</a></p>
+    </div>
+  </div>
+</div>
