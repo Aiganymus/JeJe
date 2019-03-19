@@ -1,0 +1,67 @@
+.add-info {
+  font-size: 0.8rem;
+  line-height: 50%;
+}
+.stars{
+  color:#cc0000;
+  margin-right: 20px;
+}
+.review {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+  justify-content: flex-star;
+  font-weight: lighter;
+  font-size: 0.9rem
+}
+
+.card {
+  width: 19rem;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.card-img-top {
+  height: 170px;
+}
+@media only screen and (max-width:1200px){
+  .card{
+    width:13rem;
+  }
+  .card-title {
+    font-size: 0.8rem;
+  }
+  .add-info {
+    font-size: 0.6rem;
+    line-height: 10%;
+  }
+  .review{
+    font-size: 0.6rem;
+  }
+  .card-img-top {
+    height: 140px;
+  }
+  .card-title {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width:400px){
+  .none {
+    display: none;
+  }
+  .card-img-top {
+    height: 70px;
+    width: 80px;
+  }
+  .card-body{
+    padding: 5px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin: 0;
+  }
+}

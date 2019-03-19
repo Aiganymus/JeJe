@@ -1,0 +1,21 @@
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.top-place h2 {
+ font-size: 2rem;
+ color:#cc0000;
+ text-align: center;
+ margin: 30px;
+}
+.top-place {
+  height: 100%;
+  width: 100%;
+}
+.title{
+  margin: 1rem;
+}
+.card-deck {
+    margin:60px;
+}
