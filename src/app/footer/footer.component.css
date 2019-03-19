@@ -1,0 +1,31 @@
+.list-unstyled-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.input-email {
+  border-radius: 5px;
+  border: 2px solid #cc0000;
+  margin: 5px;
+}
+
+.submit-email-button {
+  border-radius: 5px;
+  border: 2px solid #cc0000;
+  margin: 5px;
+}
+
+.text-uppercase {
+  color: #cc0000;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: stretch;
+}
+
+.row {
+  padding: 20px;
+}
