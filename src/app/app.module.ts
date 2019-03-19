@@ -11,8 +11,12 @@ import { ContainerComponent } from './container/container.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+<<<<<<< HEAD
+import { FooterComponent } from './footer/footer.component';
+=======
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
+>>>>>>> a8c65d29a1b3a6aaac5c2fbab45e09d86c802bc7
 
 @NgModule({
   declarations: [
@@ -22,8 +26,12 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
     ContainerComponent,
     RegistrationComponent,
     LoginComponent,
+<<<<<<< HEAD
+    FooterComponent
+=======
     SocialMediaComponent,
     SearchBarComponent
+>>>>>>> a8c65d29a1b3a6aaac5c2fbab45e09d86c802bc7
   ],
   imports: [
     BrowserModule,
