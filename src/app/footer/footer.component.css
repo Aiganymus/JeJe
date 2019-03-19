@@ -1,43 +1,27 @@
-.list-unstyled-item {
-  display: inline-block;
-  padding: 10px;
+.page-footer {
+  background-color: #F5F5F5;
 }
 
-.input-email {
-  border-radius: 5px;
-<<<<<<< HEAD
-  border: 2px solid #cc0000;
-=======
-  border: 2px solid #d32323;
->>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
-  margin: 5px;
+.form-control {
+  width: 70%;
 }
 
-.submit-email-button {
-  border-radius: 5px;
-<<<<<<< HEAD
-  border: 2px solid #cc0000;
-=======
-  border: 2px solid #d32323;
->>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
-  margin: 5px;
-}
-
-.text-uppercase {
-<<<<<<< HEAD
-  color: #cc0000;
-=======
-  color: #d32323;
->>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
-}
-
-.flex-container {
+.icons {
+  font-size: 30px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: stretch;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.row {
-  padding: 20px;
+.margins {
+  margin: 5px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-btn input {
+  margin-right: 10px;
 }
