@@ -1,22 +1,43 @@
-<div class="row">
-  <div class="container text-center">
-    <h1 class="mb-4 mt-2">Restaurant name</h1>
-    <carousel></carousel>
+<app-header-other></app-header-other>
+
+<div class="container-fluid text-center">
+  <div class="row mb-2 mt-2 ">
+    <div class="container text-center">
+      <h1 class="mb-4 mt-2 text-center">Restaurant name</h1>
+    </div>
   </div>
 </div>
 
-<div class="container ">
-  <div class="row">
-    <div class="col-6">
-      <h3>Restaurant name</h3>
-      <div class="category">пр. Жибек жолы, 15, уг. ул. Барибаева</div>
-      <div class="phone">87082843988</div>
-    </div>
+<another-carousel></another-carousel>
 
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-6 ">
+      <h5>Restaurant name</h5>
+
+      <div class="category mb-1">пр. Жибек жолы, 15, уг. ул. Барибаева</div>
+      <div class="phone mb-1">87082843988</div>
+      <button
+        style="border-radius:8%;background:indianred;padding:10px;box-sizing:border-box;border:1px solid white; color:white;"
+      >
+        Write review
+      </button>
+
+      <div
+        class="like"
+        style="box-sizing:border-box;border-radius:8%;cursor:pointer; background:indianred; color:white; display:inline-block;padding: 10px; border: 1px solid white"
+      >
+        Like it <i class="fas fa-thumbs-up"></i>
+      </div>
+      <div
+        class="not-like;"
+        style="border-radius:8%; padding: 10px; cursor:pointer; background:indianred; color:white; display:inline-block;border: 1px solid white"
+      >
+        Not like it <i class="fas fa-thumbs-down"></i>
+      </div>
+    </div>
     <div class="col-6">
       <div class="rating">
-        <div class="like">Like it</div>
-        <div class="not-like">Not like it</div>
         <div class="stars"></div>
         <div class="average-rating"></div>
       </div>
@@ -24,15 +45,34 @@
   </div>
 </div>
 
-<div class="row"><div class="legend"></div></div>
-<div class="reviews"></div>
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-6">
+      <div class="legend">
+        Ipsum labore dolorem harum ut saepe! Nemo dolores amet illo quod
+        recusandae. Quia odit tempore quasi suscipit quia. Voluptatum maiores
+        provident error necessitatibus cumque ipsum? Ea quibusdam maiores magnam
+        voluptates molestias Est porro ex fugiat iure mollitia architecto
+        veritatis. Placeat!
+      </div>
+    </div>
+  </div>
+</div>
 
-<iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10274.366801789123!2d76.94696603379708!3d43.257603086462304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e96bac39743%3A0x9f14710cf9555993!2z0JHRg9C60LzQtdC60LXRgNGB0LrQuNC5INCa0LvRg9CxICIxOjAiLiDQkdGD0LrQvNC10LrQtdGA0YHQutCw0Y8g0LrQvtC90YLQvtGA0LAgVEVOTklTSS5LWg!5e0!3m2!1sru!2skz!4v1551469073930"
-  width="600"
-  height="450"
-  frameborder="0"
-  style="border:0"
-  allowfullscreen
-></iframe>
+<div class="reviews">
+  <div class="review"></div>
+  <div class="review"></div>
+  <div class="review"></div>
+</div>
+
+<div class="container mt-2">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10274.366801789123!2d76.94696603379708!3d43.257603086462304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e96bac39743%3A0x9f14710cf9555993!2z0JHRg9C60LzQtdC60LXRgNGB0LrQuNC5INCa0LvRg9CxICIxOjAiLiDQkdGD0LrQvNC10LrQtdGA0YHQutCw0Y8g0LrQvtC90YLQvtGA0LAgVEVOTklTSS5LWg!5e0!3m2!1sru!2skz!4v1551469073930"
+    width="600"
+    height="450"
+    frameborder="0"
+    style="border:0"
+    allowfullscreen
+  ></iframe>
+</div>
 <!-- </div> -->

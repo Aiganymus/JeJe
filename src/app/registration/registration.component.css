@@ -63,10 +63,6 @@ h5 {
   font-family: 'Lobster';
 }
 
-.container {
-  margin: 10px;
-}
-
 .name {
   margin-top: 10px;
 }
@@ -88,10 +84,6 @@ h5 {
   justify-content: space-evenly;
 }
 
-.container {
-  margin-top: 10px;
-}
-
 #red h2 {
   color: indianred;
 }
@@ -100,12 +92,8 @@ footer {
   padding: 3rem 1rem;
 }
 
-.btn-google {
-  background-color: #ce3e26;
-}
-
-.btn-facebook {
-  background-color: #354f88;
+button {
+  margin-top: 20px;
 }
 
 @media all and (max-width: 600px) {
@@ -126,6 +114,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  @media all and (min-width:1024px) {
+    form {
+      min-width: 474px;
+    }
   }
 
 }

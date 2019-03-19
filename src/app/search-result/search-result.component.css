@@ -2,15 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: montserrat;
-}
-
-html,
-body {
-  background: indianred;
-  font-family: arial;
-  margin: 0;
-  padding: 0;
 }
 
 .results {
@@ -45,9 +36,6 @@ body {
 
 .space-around {
   justify-content: space-around;
-}
-
-.rating {
 }
 
 .mb-1 {
@@ -101,10 +89,6 @@ body {
 .img-container {
   height: 100%;
   width: 100%;
-  /* background-image:url( "https://www.humanesociety.org/sites/default/files/2018/06/cat-217679.jpg" ); 
-  background-size:cover;
-   background-repeat: no-repeat;
-   background-position: center center; */
 }
 
 .img-responsive {
@@ -124,6 +108,14 @@ body {
   width: 59%;
 }
 
+.search-result {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media all and (max-width: 900px) {
   .results {
     width: 100%;
@@ -134,11 +126,16 @@ body {
   }
 }
 
+.fa-star {
+  color: #d32323;
+}
+
 @media all and (max-width: 600px) {
   .img-responsive {
     min-width: 100px;
     min-height: 100px;
   }
+
   .legend {
     display: none;
   }
