@@ -1,0 +1,6 @@
+<app-header-other></app-header-other>
+<div class="results w-70">
+  <ng-container *ngFor="let foodPlace of foodPlaces">
+    <app-search-result [placeInfo]="foodPlace"></app-search-result>
+  </ng-container>
+</div>

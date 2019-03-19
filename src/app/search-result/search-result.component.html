@@ -1,0 +1,38 @@
+<div class="container mb-2 search-result">
+  <div class="row space-around">
+    <div class="col-md-4 ">
+      <div class="img-container">
+        <img alt="" class="img-fluid" style="min-height:100%; object-fit:cover; object-position:center;" src="https://www.humanesociety.org/sites/default/files/2018/06/cat-217679.jpg" />
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="container restaurant-info">
+        <div class="row">
+          <div class="col-md-6">
+            <a routerLink="/main"><h3>{{ placeInfo.name }}</h3></a>
+            <div class="rating">
+              <ng-container *ngFor='let in of counter(placeInfo.rating)'>
+                <i class="fas fa-star"></i>
+              </ng-container>
+            </div>
+            <div class="category ">
+              {{ placeInfo.category }}
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="phone">{{ placeInfo.phoneNumber }}</div>
+            <div class="address">{{ placeInfo.address }}</div>
+            <div class="area">{{ placeInfo.addressArea }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div class="legend">
+            {{ placeInfo.description }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
