@@ -19,6 +19,11 @@ h5 {
 
 }
 
+.btn-div {
+  margin: 5px;
+  color: white;
+}
+
 .navbar {
   background-color: indianred;
   position: static;
@@ -79,10 +84,6 @@ h5 {
   justify-content: space-evenly;
 }
 
-.container {
-  margin-top: 10px;
-}
-
 #red h2 {
   color: indianred;
 }
@@ -92,7 +93,7 @@ footer {
 }
 
 button {
-  margin-top: 1rem;
+  margin-top: 20px;
 }
 
 @media all and (max-width: 600px) {
@@ -113,6 +114,12 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  @media all and (min-width:1024px) {
+    form {
+      min-width: 474px;
+    }
   }
 
 }
