@@ -17,7 +17,8 @@ margin-bottom: 100px;
 }
 .stars{
   color:#cc0000;
-  font-size: 1.3rem;
+
+  margin-right: 20px;
 }
 .img-size{
   width: 13%;
@@ -33,7 +34,12 @@ margin-bottom: 100px;
 
 .card {
   width: 71.5%;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.data-and-stars{
+  display: flex;
+  flex-direction: row;
+  font-weight: lighter;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width:1369px){
@@ -50,13 +56,13 @@ margin-bottom: 100px;
   .title {
    margin: 1rem;
    text-align: center;
-   font-size: 1rem;
+   font-size: 1.2rem;
    color:#cc0000;
    margin-bottom: 30px;
  }
  .card {
    font-size: 0.9rem;
-   width: 60%;
+   width: 80%;
 
  }
 }
@@ -64,10 +70,12 @@ margin-bottom: 100px;
 @media only screen and (max-width:440px){
   .card {
   width: 100vw;
-  box-shadow: 0 10px 20px white, 0 6px 6px white;
 }
 .best-review{
   margin-top: 30px;
+}
+.card-title{
+  font-size: 1rem;
 }
 
 }
