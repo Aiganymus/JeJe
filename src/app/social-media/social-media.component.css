@@ -1,0 +1,17 @@
+.btn-google {
+  background-color: #ce3e26;
+}
+
+.btn-facebook {
+  background-color: #354f88;
+}
+
+.btn-div {
+  margin: 5px;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+}

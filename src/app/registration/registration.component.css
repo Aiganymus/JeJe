@@ -19,11 +19,6 @@ h5 {
 
 }
 
-.btn-div {
-  margin: 5px;
-  color: white;
-}
-
 .navbar {
   background-color: indianred;
   position: static;
@@ -63,10 +58,6 @@ h5 {
   font-family: 'Lobster';
 }
 
-.container {
-  margin: 10px;
-}
-
 .name {
   margin-top: 10px;
 }
@@ -100,12 +91,8 @@ footer {
   padding: 3rem 1rem;
 }
 
-.btn-google {
-  background-color: #ce3e26;
-}
-
-.btn-facebook {
-  background-color: #354f88;
+button {
+  margin-top: 1rem;
 }
 
 @media all and (max-width: 600px) {
