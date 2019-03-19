@@ -5,18 +5,30 @@
 
 .input-email {
   border-radius: 5px;
+<<<<<<< HEAD
+  border: 2px solid #cc0000;
+=======
   border: 2px solid #d32323;
+>>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
   margin: 5px;
 }
 
 .submit-email-button {
   border-radius: 5px;
+<<<<<<< HEAD
+  border: 2px solid #cc0000;
+=======
   border: 2px solid #d32323;
+>>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
   margin: 5px;
 }
 
 .text-uppercase {
+<<<<<<< HEAD
+  color: #cc0000;
+=======
   color: #d32323;
+>>>>>>> 7bd2546b63ea518110dbeede3d10b71ef07e565f
 }
 
 .flex-container {
